@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346258725567",
+    "project_id": "project-mixbar",
+    "storage_bucket": "project-mixbar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346258725567:android:dc9542d33b6837b271040a",
+        "android_client_info": {
+          "package_name": "com.example.project_mixbar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-8XCsuf---VfXPKV1LeDU7woiZToQHMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
