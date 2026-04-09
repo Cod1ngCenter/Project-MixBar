@@ -59,6 +59,7 @@ fun LoginScreen() {
                     .background(Color(0XFFE63027))
                     .padding(top = 132.dp)
             )
+            {}
             Spacer(modifier = Modifier.height(30.dp))
 
             Text(
@@ -189,7 +190,7 @@ fun LoginScreen() {
                     {
                         Icon(
                             imageVector = Icons.Default.AccountCircle,
-                            contentDescription = "LOGIn",
+                            contentDescription = "LOGIN",
 
                         )
 
