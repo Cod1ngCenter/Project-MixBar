@@ -22,6 +22,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.project_mixbar.ui.screens.LoginScreen
 import com.example.project_mixbar.ui.theme.ProjectMixBarTheme
 
 class MainActivity : ComponentActivity() {
@@ -30,15 +31,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ProjectMixBarTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TelaInicial(Modifier.padding(innerPadding))
-                }
+              LoginScreen()
             }
         }
     }
 }
 
-@Composable
-fun TelaInicial(modifier: Modifier = Modifier) {
-
-}
