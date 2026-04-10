@@ -34,10 +34,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 
 
 @Composable
-fun LoginScreen() {
+fun LoginScreen(navController: NavController) {
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -143,7 +145,7 @@ fun LoginScreen() {
 
                     Button(
                         onClick = {
-                            print("text")
+                        navController.navigate("home")
                         },
                         modifier = Modifier
                             .height(48.dp)
@@ -217,5 +219,6 @@ annotation class Icon
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun LoginPreview() {
-    LoginScreen()
+    LoginScreen(navController = rememberNavController())
+
 }
