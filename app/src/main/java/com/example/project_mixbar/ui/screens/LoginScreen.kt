@@ -116,7 +116,7 @@ fun LoginScreen(navController: NavController) {
                             unfocusedContainerColor = Color(0xFF3A3A3A)
                         )
                     )
-                    Spacer(modifier = Modifier.height(33.dp))
+                    Spacer(modifier = Modifier.height(25.dp))
                     Text(
                         text = "Senha",
                         color = Color(0xFFB7B4B4),
@@ -164,7 +164,7 @@ fun LoginScreen(navController: NavController) {
                             color = Color(0xffb7b4b4)
                         )
                     }
-                    Spacer(modifier = Modifier.height(19.dp))
+                    Spacer(modifier = Modifier.height(22.dp))
 
                     Box(
                         modifier = Modifier
@@ -172,7 +172,7 @@ fun LoginScreen(navController: NavController) {
                             .background(Color(0xffB7B4B4))
                             .height(3.dp)
                     )
-                    Spacer(modifier = Modifier.height(19.dp))
+                    Spacer(modifier = Modifier.height(22.dp))
 
                     Button(
                         onClick = {
